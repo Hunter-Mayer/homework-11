@@ -32,7 +32,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ### Screenshot
 
-![screenshot](add here)
+![screenshot](/images/screencapture-localhost-3001-notes-2022-11-16-13_48_23.png)
 
 
 
