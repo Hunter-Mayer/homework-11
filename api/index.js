@@ -29,11 +29,12 @@ router.post('/notes', (req,res) =>{
 
 router.delete('/notes/:id', (req, res) =>{
     const newDb = db.filter((userInput) =>
+
     userInput.id !== req.params.id)
 
-    fs.writeFileSync('../db/db.json', JSON.stringify(newDb))
+    fs.writeFileSync('./db/db.json', JSON.stringify(newDb))
 
-    readFile.json(newDb)
+    res.json(newDb)
 })
 
 module.exports = router

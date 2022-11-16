@@ -1,7 +1,7 @@
 # Hunter Mayer Homework Challenge 11
 
 ## Description
-Add here
+In this homework assignment I used my knowledge of Express.JS to create a back end that will save and retrieve data. 
 
 ### Acceptance Criteria
 GIVEN a note-taking application
@@ -38,7 +38,7 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ### Deployed Application Links
 
-Github Repo: add here
+Github Repo: https://github.com/Hunter-Mayer/homework-11
 
 Heroku URL: add here
 
