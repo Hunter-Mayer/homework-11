@@ -13,18 +13,22 @@ app.use(express.urlencoded({
 app.use(express.static('public'))
 
 
-//API Routes
+//API Routes (in api folder)
 app.use('/api', apiRoutes)
-//Client Routes
 
+
+//Client Routes
+//home route
 app.get('/', (req, res) => {
 res.sendFile(path.join(__dirname, './public/index.html'))
 })
 
+//notes route
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'))
 })
 
+//listening
 app.listen(port, function(){
     console.log(`listening on port ${port}`)
 })
